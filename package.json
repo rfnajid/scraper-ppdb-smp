@@ -1,0 +1,32 @@
+{
+  "name": "no",
+  "version": "1.0.0",
+  "description": "Data Scrapper PPDB SMP Surabaya",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run rapor && npm run zonasi",
+    "rapor": "node index.js rapor",
+    "zonasi": "node index.js zonasi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfnajid/ppdb-smp-scraper.git"
+  },
+  "keywords": [
+    "education",
+    "scraper",
+    "indonesia",
+    "surabaya"
+  ],
+  "author": "Ridhazis Faranto Najid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfnajid/ppdb-smp-scraper/issues"
+  },
+  "homepage": "https://github.com/rfnajid/ppdb-smp-scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csv-writer": "^1.6.0"
+  }
+}
